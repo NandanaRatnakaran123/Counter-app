@@ -1,0 +1,17 @@
+#counter{
+   
+        text-align: center;
+        
+        & Button{
+            width: 80px;
+            padding: 7px;
+            font-size: 16px;
+            border-radius: 10px;
+            box-shadow: 2px 3px black;
+        }
+    }
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/10/03/91/98/360_F_1003919833_aRXtbUq4uBmczFFpK1BXXcXPe6L8afHT.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
