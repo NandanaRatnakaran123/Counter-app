@@ -19,12 +19,12 @@ function Header() {
             <img
               alt=""
               src="https://cdn.dribbble.com/userupload/41669677/file/original-ef0821e44688600fb1c0943be3ef53f0.gif"
-              width="50"
-              height="50"
-              style={{ marginRight: '15px' ,paddingLeft:'10px' }}
+              width="63"
+              height="63"
+              style={{ marginRight: '15px' ,padding:'9px' }}
               className="d-inline-block align-top"
             />
-            <span style={{ color: 'rgba(0, 0, 0, 0.76)',paddingTop:'6px' }}>Counter Application</span>
+            <span style={{ color: 'rgba(0, 0, 0, 0.76)',paddingTop:'14px',fontSize:'32px' }}>Counter Application</span>
           </Navbar.Brand>
         </Container>
       </Navbar>

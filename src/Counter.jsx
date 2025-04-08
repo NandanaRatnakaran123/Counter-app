@@ -34,15 +34,15 @@ function Counter() {
     <div className='body'>
       <div id='counter' className="container border " style={{marginTop:"200px",alignItems:'center'}}>
         <div className="text-center">
-            <h1 className='fw-bolder'>{counter}</h1>
-        </div>
+            <h1 className='fw-bolder fs-5' >{counter}</h1>
+        </div> <br />
         <div className="text-center p-3">
           {running?
-             <Button variant='success' className='m-2' style={{backgroundColor:' rgb(237, 114, 80)'}} onClick={stop}>Stop</Button>: <Button variant='success' className='m-2' style={{backgroundColor:' rgb(39, 201, 136)'}} onClick={restart}>Continue</Button>
+             <Button variant='success' className='m-2' style={{backgroundColor:' rgb(225, 6, 6)',color:'white'}} onClick={stop}>Stop</Button>: <Button variant='success' className='m-2' style={{backgroundColor:' rgba(8, 204, 40, 0.78)'}} onClick={restart}>Continue</Button>
           }
             {/* <Button variant='success' className='m-2' style={{backgroundColor:' rgb(237, 114, 80)'}} onClick={stop}>Stop</Button>
             <Button variant='success' className='m-2' style={{backgroundColor:' rgb(39, 201, 136)'}} onClick={restart}>Continue</Button> */}
-            <Button variant='warning' className='m-2' style={{marginLeft:'10px',backgroundColor:' rgba(236, 245, 73, 0.85)'}} onClick={reset}>Reset</Button>
+            <Button variant='warning' className='m-2' style={{marginLeft:'10px',backgroundColor:' rgba(222, 232, 28, 0.85)'}} onClick={reset}>Reset</Button>
             
         </div>
       </div>
